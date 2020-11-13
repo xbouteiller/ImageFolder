@@ -3,7 +3,7 @@
 
 ## Install Python version if needed
 
-[Anaconda]https://www.anaconda.com/products/individual
+[Anaconda](https://www.anaconda.com/products/individual)
 
 
 ## Download full folder from git
