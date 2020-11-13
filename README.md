@@ -35,7 +35,6 @@ Script is located in ExtractInfo.py
 
 This script should be placed in the mother directory of images that will be parsed
 
-In the console
 
 
 ### From the terminal
