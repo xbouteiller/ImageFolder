@@ -32,13 +32,15 @@ This script should be placed in the mother directory of images that will be pars
 
 In the console
 
+
+1. From the terminal
+
 >
 > python ExtractInfo.py 
 >
 
-
-Alternatively,
-
+2. Direct execution
+    
 - **windows**: place the bash file **launch.bat** in the same folder, then double click on it
 - **linux**: place the bash file **bash-ex-linux.sh** in the same folder, then double click on it
 
