@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-/home/xavier/anaconda3/bin/python /home/xavier/Documents/development/cavitron/exec/caviclean-python-exec.py
+python ExtractInfo.py
 exec /bin/bash
