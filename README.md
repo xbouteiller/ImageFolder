@@ -1,6 +1,11 @@
 # Python package for Extracting infos from iamages
 
 
+## Install Python version if needed
+
+[Anaconda]https://www.anaconda.com/products/individual
+
+
 ## Download full folder from git
 
 1. Direct download
@@ -40,10 +45,13 @@ In the console
 >
 
 2. Direct execution
-    
-- **windows**: place the bash file **launch.bat** in the same folder, then double click on it
-- **linux**: place the bash file **bash-ex-linux.sh** in the same folder, then double click on it
 
+**windows**
+place the bash file **launch.bat** in the same folder, then double click on it
+
+**linux**
+place the bash file **bash-ex-linux.sh** in the same folder, then double click on it
+If you installed Anaconda as python distribution it may be needed that you change the bash script manually
 
 ## Output
 
