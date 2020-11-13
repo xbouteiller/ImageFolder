@@ -1,7 +1,17 @@
 # Python package for Extracting infos from iamages
 
+
 ## Download full folder from git
 
+1. Direct download
+
+From the green box  named 'clone' in the right corner > download .zip
+
+2. From the terminal
+
+>
+> git clone https://github.com/xbouteiller/ImageFolder.git
+>
 
 
 
