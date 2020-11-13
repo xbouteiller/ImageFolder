@@ -44,7 +44,7 @@ In the console
 > python ExtractInfo.py 
 >
 
-#### Direct execution
+### Direct execution
 
 1. **windows**
 place the bash file **launch.bat** in the same folder, then double click on it
