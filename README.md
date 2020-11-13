@@ -38,18 +38,18 @@ This script should be placed in the mother directory of images that will be pars
 In the console
 
 
-1. From the terminal
+### From the terminal
 
 >
 > python ExtractInfo.py 
 >
 
-2. Direct execution
+#### Direct execution
 
-**windows**
+1. **windows**
 place the bash file **launch.bat** in the same folder, then double click on it
 
-**linux**
+2. **linux**
 place the bash file **bash-ex-linux.sh** in the same folder, then double click on it
 If you installed Anaconda as python distribution it may be needed that you change the bash script manually
 
