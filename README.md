@@ -1,4 +1,4 @@
-# Python package for Extracting infos from iamages
+# Python package for Extracting infos from images
 
 
 ## Install Python version if needed
