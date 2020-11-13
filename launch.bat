@@ -1,0 +1,2 @@
+python ExtractInfo.py
+pause
