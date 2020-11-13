@@ -166,7 +166,7 @@ if __name__ =="__main__":
                         print('File {} is neither D nor ND type {}'.format(l, Type)) 
 
                 prog += 1
-                time.sleep(0.1)
+                time.sleep(0.01)
                 update_progress(prog/total_file)
 
         else:
