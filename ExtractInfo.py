@@ -93,7 +93,7 @@ def update_progress(progress):
         progress = 1
         status = "Done..."
     block = int(round(barLength*progress))
-    text = "\rPercent: [{0}] {1}% {2}".format( "#"*block + "-"*(barLength-block), progress*100, status)
+    text = "\rPercent: [{0}] {1:.2f}% {2}".format( "#"*block + "-"*(barLength-block), progress*100, status)
     sys.stdout.write(text)
     sys.stdout.flush()
 
@@ -180,4 +180,4 @@ if __name__ =="__main__":
     
 
 
-    print("\nTest completed")
+    print("\nExtraction completed")
