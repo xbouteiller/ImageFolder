@@ -182,8 +182,14 @@ if __name__ =="__main__":
 
     dffull.to_csv(os.path.join(directory,'output.csv'))
 
-
+    df2 = dffull[['Measure', 'Area', 'Rep', 'Tree', 'PicNumber', 'Type']]
     
+    df2 = df2.pivot_table(index=['Rep', 'Tree', 'PicNumber', 'Type'], 
+                    columns='Measure', 
+                    values='Area').reset_index()
+    df2 = df2.rename(columns={1:'pit membrane',2:'torus',3:'pit aperture'})
+    df2.to_csv(os.path.join(directory,'output2.csv'))
+
 
 
     print("\nExtraction completed")
