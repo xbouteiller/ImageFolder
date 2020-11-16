@@ -62,8 +62,14 @@ def print_listofiles(listOfFiles):
 
 
 def extract_name_info(t):
-    term = re.findall(r'([a-zA-Z]+)(\d*)-(\d+)?-?(\d+)-(\w{1})',t)
-    term = pd.DataFrame(term, columns = ['Rep','Tree', 'Number', 'PicNumber', 'Type'])
+    test = re.findall(r'([a-zA-Z]+)',t)[0]
+    # print(test)
+    if test == 'ND':
+        term = re.findall(r'([a-zA-Z]+)-(\d+)-(\d+)-(\w{1})',t)
+    if test == 'D':
+        term = re.findall(r'([a-zA-Z]+)(\d+)-(\d+)-(\w{1})',t)
+
+    term = pd.DataFrame(term, columns = ['Rep','Tree', 'PicNumber', 'Type'])
     return term
 
 def append_df(df, dfa):
@@ -118,7 +124,7 @@ if __name__ =="__main__":
     lof = parse_folder(path)
     # print(lof)
 
-    dffull = pd.DataFrame([], columns = ['Measure','Area', 'Perim.', 'Major', 'Minor', 'Angle', 'Median'] + ['Rep','Tree', 'Number', 'PicNumber', 'Type'])
+    dffull = pd.DataFrame([], columns = ['Measure','Area', 'Perim.', 'Major', 'Minor', 'Angle', 'Median'] + ['Rep','Tree', 'PicNumber', 'Type'])
     # print('df_full---------------')
     # print(dffull)
 
